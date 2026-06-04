@@ -1,5 +1,5 @@
 plugins {
-    id 'fabric-loom' version '1.7.2'
+    id 'fabric-loom' version '1.8-SNAPSHOT'
     id 'java'
 }
 
@@ -22,6 +22,6 @@ dependencies {
 }
 
 java {
-    sourceCompatibility = JavaVersion.VERSION_17
-    targetCompatibility = JavaVersion.VERSION_17
+    sourceCompatibility = JavaVersion.VERSION_21
+    targetCompatibility = JavaVersion.VERSION_21
 }
